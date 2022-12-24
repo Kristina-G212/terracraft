@@ -35,6 +35,7 @@ main {
     width: 900px;
     text-align: justify;
     padding: 20px;
+    margin:0;
 }
 
 .ct {
@@ -67,4 +68,15 @@ a:hover {
 
 a:visited {
     color: #a3a3a3;
+}
+
+.footer {
+    background-color: blanchedalmond;
+    width: 900px;
+    text-align: center;
+    padding: 0 20px 10px;
+}
+
+.footer__text {
+    color: black;
 }

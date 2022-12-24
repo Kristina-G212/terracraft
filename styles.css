@@ -20,6 +20,7 @@ body {
 header {
     text-align: center;
     background-color: rgb(250, 235, 215, 0.7);
+    width: 940px;
 }
 
 .logo {

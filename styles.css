@@ -70,3 +70,85 @@ a:hover {
 a:visited {
     color: #a3a3a3;
 }
+
+@media (max-width: 1280px) {
+    body{
+        width: auto;
+        display: flex;
+    }
+
+    .nada {
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header {
+        width: auto;
+    }
+
+    main {
+        width: 729px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body{
+        width: auto;
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .nada {
+        width: auto;
+    }
+
+    header {
+        width: auto;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    main {
+        width: auto;
+        display: block;
+        padding: 5px 20px;
+    }
+
+    .imgs {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    body{
+        width: auto;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .nada {
+        width: auto;
+    }
+
+    header {
+        width: auto;
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    main {
+        width: auto;
+        display: block;
+        padding: 5px 20px;
+    }
+
+    .imgs {
+        width: 100%;
+    }
+
+}

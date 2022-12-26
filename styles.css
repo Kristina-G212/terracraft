@@ -18,9 +18,12 @@ body {
 }
 
 header {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgb(250, 235, 215, 0.7);
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     padding: 0 20px;
 }
 
@@ -34,7 +37,8 @@ header {
 
 main {
     background-color: antiquewhite;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     text-align: justify;
     padding: 20px;
 }
@@ -72,48 +76,33 @@ a:visited {
 }
 
 @media (max-width: 1280px) {
-    body{
-        width: auto;
-        display: flex;
-    }
-
-    .nada {
-        padding-top: 10px;
-        display: flex;
-        justify-content: space-around;
-    }
 
     header {
-        width: auto;
+        width:  80%;
     }
-
     main {
-        width: 729px;
+        width: 80%;
     }
-
 }
 
 @media (max-width: 768px) {
     body{
-        width: auto;
+        width: 100%;
+        width: -moz-available;
+        width: -webkit-fill-available;
         display: block;
-        text-align: center;
         font-size: 12px;
     }
 
-    .nada {
-        width: auto;
-    }
-
     header {
-        width: auto;
-        display: block;
+        width: -moz-available;
+        width: -webkit-fill-available;
         padding-bottom: 10px;
     }
 
     main {
-        width: auto;
-        display: block;
+        width: -moz-available;
+        width: -webkit-fill-available;
         padding: 5px 20px;
     }
 
@@ -125,30 +114,24 @@ a:visited {
 
 @media (max-width: 320px) {
     body{
-        width: auto;
-        display: block;
-        text-align: center;
         font-size: 10px;
     }
 
-    .nada {
-        width: auto;
-    }
-
     header {
-        width: auto;
-        display: block;
         padding-bottom: 10px;
     }
 
     main {
-        width: auto;
-        display: block;
         padding: 5px 20px;
     }
-
-    .imgs {
-        width: 100%;
+    .ul1 {
+        display: block;
+        list-style-type: none;
+        margin-top: 16px;
+        text-align: left;
+    }
+    .li_elem {
+        padding-bottom: 5px;
     }
 
 }
